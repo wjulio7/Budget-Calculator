@@ -3,6 +3,15 @@
 .root{
     display: flex;
     width: 100%;
+    position: relative;
+
+    .x-icon-button{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        background: red;
+        right: 0;
+    }
 }
 .budget-item{
     display: flex;
@@ -13,9 +22,13 @@
     cursor: pointer;
 
     .description{
+        display: flex;
         flex-grow: 1;
         font-size: 18px;
         margin-left: 5px;
+
+        //vertically center the childrem elements
+        align-items: center;
     }
     .mount{
         padding: 5px;
@@ -33,9 +46,9 @@
 }
 .income{
     p{
-        color: $red;
+        color: $green;
     }
     .mount{
-        background-color: $light-red;
+        background-color: $light-green;
     }
 }
