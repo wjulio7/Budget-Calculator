@@ -17,7 +17,9 @@ export class AddItemFormComponent implements OnInit {
   ngOnInit(): void {
   }
    onSubmit(form:NgForm){
-     console.log(form)
+     //SEND TO WHO ARE LISTENNING
+     this.formSubmit.emit(form.value)
+    form.reset()
    }
 
 }

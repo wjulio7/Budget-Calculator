@@ -8,14 +8,15 @@ import { AddItemFormComponent } from './add-item-form/add-item-form.component';
 import { BudgetItemListComponent } from './budget-item-list/budget-item-list.component';
 import { BudgetItemCardComponent } from './budget-item-list/budget-item-card/budget-item-card.component';
 
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { EditItemModalComponent } from './edit-item-modal/edit-item-modal.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
     AddItemFormComponent, 
-    BudgetItemListComponent, BudgetItemCardComponent
+    BudgetItemListComponent, BudgetItemCardComponent, EditItemModalComponent
   ],
   imports: [
     BrowserModule,
