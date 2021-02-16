@@ -1,5 +1,5 @@
-Utilizados
-Bluma Frameword
+#Projeto de calculadora com Angular, é possivel adicionar editar e excluir valores.
+(https://github.com/wjulio7/Budget-Calculator/blob/main/src/assets/imagem-demonstrativa.jpeg)
 
 # BudgetApp
 
