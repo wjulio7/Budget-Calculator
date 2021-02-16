@@ -1,4 +1,4 @@
-##Projeto de calculadora com Angular, é possivel adicionar editar e excluir valores.
+## Projeto de calculadora com Angular, é possivel adicionar editar e excluir valores.
 
 ![Homepage interface Web](https://github.com/wjulio7/Budget-Calculator/blob/main/src/assets/imagem-demonstrativa.jpeg)
 
